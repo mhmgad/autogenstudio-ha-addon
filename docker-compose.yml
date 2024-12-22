@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  autogenstudio:
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./data:/home/user/app/data
+      - ./config:/home/user/app/config
+    restart: unless-stopped

@@ -1,0 +1,42 @@
+# Config directory
+config/*
+!config/.gitkeep
+!config/configuration.yaml.example
+
+# Data directory
+data/*
+!data/.gitkeep
+
+# Environment files
+.env
+*.env
+
+# Runtime files
+*.db
+*.log
+*.sqlite
+*.sqlite-journal
+
+# Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build files
+*.tar
+*.zip
+*.gz 
+
+data/
+config/

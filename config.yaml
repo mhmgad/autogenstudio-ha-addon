@@ -1,0 +1,27 @@
+name: "Autogenstudio as an Add-on"
+version: "1.0.0"
+slug: "autogenstudio_addon"
+description: "Add-on to run autogenstudio"
+url: "https://github.com/yourusername/autogenstudio_ha_addon"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+boot: auto
+schema:
+init: false
+ports:
+  8081/tcp: 8081
+  # Add more ports as needed
+  # host_port/protocol: container_port
+
+# Define available mounts
+map:
+  - data:rw
+  - config:rw
+  # Add more volume mappings as needed
+  # - source:permission
+  
