@@ -1,8 +1,8 @@
-# Autogenstudio as an Add-on
+# Autogenstudio as Home Assistant Add-on
 
 ## About
 
-This add-on runs autogenstudio as a service.
+This add-on runs Autogenstudio as a service.
 
 
 ## Installation
@@ -13,7 +13,7 @@ This add-on runs autogenstudio as a service.
 2. Click the 3-dots menu at upper right <kbd>...</kbd> > <kbd>Repositories</kbd> and add this repository's URL: [https://github.com/mhmgad/autogenstudio-ha-addon](https://github.com/mhmgad/autogenstudio-ha-addon)
 
 
-3. Reload the page , scroll to the bottom to find the new repository, and click the new add-on named "Home Assistant Google Drive Backup"
+3. Reload the page, scroll to the bottom to find the new repository, and click the new add-on named "Home Assistant Google Drive Backup"
    
    
    
@@ -22,7 +22,7 @@ This add-on runs autogenstudio as a service.
 
 5. Click <kbd>Start</kbd>, give it a few seconds to spin up, and then click the `Open Web UI` button that appears.
 
-After installation, the integration will be available to configure through the Home Assistant UI under Settings > Devices & Services.
+After installation, the integration can be configured through the Home Assistant UI under Settings > Devices & Services.
 
 
 
