@@ -11,7 +11,7 @@ arch:
   - i386
 startup: application
 boot: auto
-schema:
+schema: {}
 init: false
 ports:
   8081/tcp: 8081
