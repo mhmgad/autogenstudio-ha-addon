@@ -40,3 +40,7 @@ Thumbs.db
 
 data/
 config/
+
+autogen-studio/config/
+autogen-studio/data/
+

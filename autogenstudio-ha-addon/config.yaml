@@ -2,7 +2,7 @@ name: "Autogenstudio as an Add-on"
 version: "1.0.0"
 slug: "autogenstudio_addon"
 description: "Add-on to run autogenstudio"
-url: "https://github.com/yourusername/autogenstudio_ha_addon"
+url: "https://github.com/mhmgad/autogenstudio-ha-addon"
 arch:
   - armhf
   - armv7
